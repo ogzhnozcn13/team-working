@@ -28,14 +28,8 @@ span{
     font-weight: bold;
 }
 
-a{
-    display: block;
-    text-align: center;
-    padding-bottom: 50px;
-    font-size: 25px;
-    color: darkmagenta;
-    font-family: Geneva, Verdana, sans-serif;
-    text-decoration: none;
+main{
+    position: relative;
 }
 
 .text{
@@ -46,19 +40,26 @@ a{
     width: 900px;
     height: 900px;
     margin: 200px 200px 50px 400px;
+    position: absolute;
 }
 
 .logo{
     border: 3px solid black;
-    border-radius: 150px;
+    border-radius: 50%;
     overflow: hidden;
     margin-left: 700px;
     z-index: 1;
     position: absolute;
+    margin-top: 50px;
 }
 
-main{
-    position: relative;
+a{
+    display: block;
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 25px;
+    color: darkmagenta;
+    font-family: Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    /* position: static; */
 }
-
-
